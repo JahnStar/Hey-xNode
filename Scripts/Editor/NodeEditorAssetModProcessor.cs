@@ -216,17 +216,11 @@ namespace XNodeEditor
                         }
 
                         // Initialize nodes list if null
-                        if (graph.nodes == null)
-                        {
-                            graph.nodes = new System.Collections.Generic.List<XNode.Node>();
-                        }
+                        graph.nodes ??= new List<XNode.Node>();
 
                         // Remove null items from the graph
                         int removedCount = graph.nodes.RemoveAll(x => x == null);
-                        if (removedCount > 0)
-                        {
-                            Debug.Log($"Removed {removedCount} null node references from {graph.name}");
-                        }
+                        if (removedCount > 0) Debug.LogWarning($"Removed {removedCount} null node references from {graph.name}");
 
                         // Load all asset representations safely
                         Object[] objs = LoadAssetRepresentationsSafely(assetpath);
