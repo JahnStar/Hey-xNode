@@ -1,4 +1,4 @@
-# JSG xNode
+# Hey xNode
 
 <img align="right" width="100" height="100" src="https://user-images.githubusercontent.com/37786733/41541140-71602302-731a-11e8-9434-79b3a57292b6.png">
 <br>
@@ -43,7 +43,7 @@ Node based graph toolkit for Unity 6. Enhanced fork of [Siccity/xNode](https://g
 
 **Unity Package Manager**
 ```json
-"com.jahnstargames.xnode": "https://github.com/JahnStar/JSG-xNode.git"
+"com.jahnstargames.xnode": "https://github.com/JahnStar/Hey-xNode.git"
 ```
 
 **Manual Installation**
@@ -60,7 +60,7 @@ Includes comprehensive implementations:
 - **StateMachine**: Finite state machine for AI and game flow
 - **xNodeDialogueSystem**: Advanced dialogue with character management
 
-Import via Package Manager → JSG xNode → Samples.
+Import via Package Manager → Hey xNode → Samples.
 
 ## Quick Start
 
@@ -280,4 +280,4 @@ Copyright (c) 2024 Halil Emre Yıldız (Jahn Star Games)
 
 - **Original Repository**: [Siccity/xNode](https://github.com/Siccity/xNode)
 - **Documentation**: [xNode Wiki](https://github.com/Siccity/xNode/wiki)
-- **Package Repository**: [JahnStar/JSG-xNode](https://github.com/JahnStar/JSG-xNode)
+- **Package Repository**: [JahnStar/Hey-xNode](https://github.com/JahnStar/Hey-xNode)
